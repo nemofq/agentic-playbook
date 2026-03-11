@@ -288,11 +288,11 @@ Expected response: `healthy: yes` with backend details. Run `/acp status` to con
 ## Architecture Overview
 
 ```
-Telegram DM ──→ default account ──→ main agent (existing behavior unchanged)
+Telegram DM → default account → main agent (existing behavior unchanged)
 
 Telegram Group
-  ├─ Codex topic ──→ default account ──→ ACP binding ──→ codex agent ──→ acpx ──→ Codex CLI
-  └─ Claude topic ──→ default account ──→ ACP binding ──→ claude agent ──→ acpx ──→ Claude Code CLI
+  ├─ Codex topic → default account → ACP binding → codex agent → acpx → Codex CLI
+  └─ Claude topic → default account → ACP binding → claude agent → acpx → Claude Code CLI
 ```
 
 A single bot handles DMs and group topics through independent session paths with no interference.
