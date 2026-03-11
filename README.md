@@ -4,7 +4,7 @@ A personal playbook for working with AI agents — tips, skills, and use cases f
 
 ## Setups
 
-- [Run External Coding Agents (Codex, Claude Code) via ACP on Telegram](setups/openclaw-telegram-acp-coding-agents.md)
+- [Run External Coding Agents (Codex, Claude Code) via ACP in OpenClaw](setups/openclaw-telegram-acp-coding-agents.md)
 
 ## Skills
 
